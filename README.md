@@ -1,10 +1,9 @@
 # KnowledgeForge
 
-"A live demo of the React frontend is deployed at [https://buthuruvenkatareddy.github.io/KnowledgeForge/](https://buthuruvenkatareddy.github.io/KnowledgeForge/) . The full-stack application, including the FastAPI backend and PostgreSQL database, can be run locally by following the setup instructions below. The backend is not deployed live to avoid cloud hosting costs."
 
 ##  Project Overview
 
-Built by Venkat Buthuru, KnowledgeForge is an intelligent AI-powered knowledge management system that transforms your documents into an interactive, searchable knowledge base. This application allows users to upload various document formats (PDFs, Word documents, text files) and then engage in natural language conversations with an AI assistant that understands the content of their documents.
+Built by Mouni Varshini, KnowledgeForge is an intelligent AI-powered knowledge management system that transforms your documents into an interactive, searchable knowledge base. This application allows users to upload various document formats (PDFs, Word documents, text files) and then engage in natural language conversations with an AI assistant that understands the content of their documents.
 
 The system combines modern web technologies with advanced AI capabilities to provide a seamless experience for document management, intelligent search, and conversational AI interactions. Users can organize their knowledge, get instant answers from their document collection, and maintain conversation history for future reference.
 
@@ -460,4 +459,4 @@ npm run lint
 
 ---
 
-Created with ❤️ by Venkat Buthuru • © 2025 KnowledgeForge. All rights reserved.
+Created with  by Mouni Varshini  • © 2025 KnowledgeForge. All rights reserved.
