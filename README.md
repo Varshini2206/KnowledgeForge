@@ -61,8 +61,7 @@ Landing Pages:
 
 ![Landing Page Screenshot 1](KnowledgeForge_Application_ScreenShots/1.png)
 ![Landing Page Screenshot 2](KnowledgeForge_Application_ScreenShots/2.png)
-![Landing Page Screenshot 3](KnowledgeForge_Application_ScreenShots/3.png)
-![Landing Page Screenshot 4](KnowledgeForge_Application_ScreenShots/4.png)
+
 
 Landing Page Features:
 - Professional Hero Section: Eye-catching introduction with gradient backgrounds and modern typography
@@ -145,97 +144,6 @@ Document Preview Features:
 - Content Highlighting: Visual indicators for searchable and processed content sections
 - Metadata Display: File information including size, upload date, and processing time
 
-## Deployment
-
-###  GitHub Pages (100% Free - No External Hosting!)
-
-**Get a live link directly from GitHub - completely FREE:**
-
-**Frontend Demo URL**: `https://buthuruvenkatareddy.github.io/KnowledgeForge/`
-
-**📋 How to Enable GitHub Pages:**
-
-1. **Go to your GitHub repository settings**
-   - Navigate to: `Settings` → `Pages`
-
-2. **Configure GitHub Pages**:
-   - Source: `Deploy from a branch`
-   - Branch: `main` 
-   - Folder: `/ (root)`
-
-3. **Create GitHub Actions workflow**:
-   ```bash
-   # Create .github/workflows/deploy.yml
-   mkdir -p .github/workflows
-   ```
-
-4. **Your site will be live at**: `https://yourusername.github.io/KnowledgeForge/`
-
-** Note**: GitHub Pages only hosts static frontend. For full AI functionality, you'll need backend hosting (see options below).
-
-** Perfect for**: Portfolio showcase, UI demonstration, static content
-
----
-
-### Render.com Deployment (Full-Stack)
-
-This project is configured for easy deployment on Render.com:
-
-1. **Push your code to GitHub**
-
-2. **Connect to Render.com**:
-   - Sign up at [render.com](https://render.com)
-   - Connect your GitHub repository
-   - Render will automatically detect the `render.yaml` configuration
-
-3. **Automatic Configuration**:
-   -  Backend API with health checks
-   -  PostgreSQL database with automatic connection
-   -  Frontend static site with proper routing
-   -  Environment variables automatically configured
-
-4. **API URL Configuration**:
-   - Frontend automatically uses relative URLs (`/api/v1`) in production
-   - No manual configuration needed for standard deployments
-   - For custom domains, set `VITE_API_URL` in frontend environment variables
-
-### Alternative Free Deployment Options
-
-If you want to get your own live link, here are other free platforms you can use:
-
-** Recommended Free Platforms:**
-
-1. **Vercel** (Frontend + Serverless Functions)
-   - Free tier with generous limits
-   - Easy GitHub integration
-   - Perfect for React + API deployment
-   - URL: `https://yourapp.vercel.app`
-
-2. **Railway** 
-   - Free $5/month credit
-   - Full-stack deployment
-   - PostgreSQL included
-   - URL: `https://yourapp.railway.app`
-
-3. **Heroku** (with limitations)
-   - Free tier available with sleep mode
-   - PostgreSQL addon available
-   - URL: `https://yourapp.herokuapp.com`
-
-4. **Netlify** (Static sites + Functions)
-   - Great for frontend deployment
-   - Serverless functions for API
-   - URL: `https://yourapp.netlify.app`
-
-** Quick Deploy Instructions:**
-1. Fork this repository to your GitHub
-2. Connect your repository to chosen platform
-3. Set environment variables (DATABASE_URL, OPENAI_API_KEY)
-4. Deploy with one click!
-
-### Manual Deployment
-
-For other hosting platforms, see the `build.sh` script for deployment steps.
 
 ## �️ Installation & Setup
 
